@@ -1,5 +1,5 @@
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "internet"
+CorrectPassword = "shihab"
 
 
 loop = 'true'
@@ -12,10 +12,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://www.Youtube.com/UCM4wF_X6IV4SNRumm4N_3IA')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://www.Youtube.com/UCM4wF_X6IV4SNRumm4N_3IA')
 
 def login():
 	os.system('clear')
