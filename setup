@@ -7,18 +7,8 @@ else
 mkdir .htr/www
 fi
 
-back = 0
-berhasil = []
-cekpoint = []
-oks = []
-id = []
-listgrup = []
-vulnot = " \e[32;1mNot Vuln"
-vuln = " \e[32;1m[32mVuln"
-
 os.system("clear")
 print  """
-
 
 printf " \e[32;1m ┏━━━┳┓╋┏┳━━┳┓╋┏┳━━━┳━━┓ UPDATE✔︎\e[0m\n"
 printf " \e[37;1m ┃┏━┓┃┃╋┃┣┫┣┫┃╋┃┃┏━┓┃┏┓┃ \e[0m\n"
