@@ -111,3 +111,9 @@ def login():
 		print logo
 		print 50*"\033[1;96m▪"
 		
+jalan "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Type \e[1;96mbash whitephisher \e[1;93mto run WHITEPHISHER !! \e[0m\n"
+jalan "\e[0m\n"
+jalan "\e[0m\n"
+
+		
+		
