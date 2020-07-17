@@ -111,6 +111,5 @@ def login():
 		print logo
 		print 50*"\033[1;96m▪"
 		
-		jalan("   \037[1;93m Run Tools \34[1;97m ") bash setup
 		
-		
+print "Run Tools \037[1;93mbash setup"
