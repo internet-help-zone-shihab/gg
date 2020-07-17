@@ -99,3 +99,4 @@ def login():
 		print logo
 		print 50*"\033[1;96m▪"
 		
+print ("\033[1;96mRun This Tools bash setup")
