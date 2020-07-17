@@ -79,7 +79,7 @@ jalan("\033[1;96m•◈•  ____) | |    | |____| |____| |__| || |_ ")
 jalan("\033[1;96m•◈• |_____/|_|    |______|______|_____/_____|")
  
 
-jalan("   \037[1;93m Welcome to Internet Help Zone ")
+jalan("\037[1;93m Welcome to Internet Help Zone ")
 
 
 CorrectUsername = "Internet"
@@ -112,4 +112,6 @@ def login():
 		print 50*"\033[1;96m▪"
 		
 		
-print "Run Tools \037[1;93mbash setup"
+		
+		
+print "Run Tools ("\037[1;93mbash setup"
